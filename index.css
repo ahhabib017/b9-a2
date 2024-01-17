@@ -1,0 +1,348 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+*{
+    font-size: Mulish;
+}
+:root{
+    --prime-color: #FF5400;
+    --Dark-02: #424247;
+}
+body{
+    max-width: 73.125rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-left{
+    display: flex;
+}
+.top-travel{
+    color: var(--prime-color);
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.top-right > ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.top-right > ul > li > a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Home{
+    color: var(--prime-color) ;
+}
+#home{
+    color: var(--prime-color);
+}
+.explore-travel{
+    justify-content: center;
+}
+
+.option>ul{
+    display: flex;
+
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+
+.section-2{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    width: 73.125rem;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 0;
+    justify-content: center;
+}
+
+.explore{
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+   
+}
+.explore-description{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.travel-option>ul>li{
+   border: 2px solid tomato;
+   text-decoration: none;
+
+}
+.Where-go{
+    padding: 16px 64px 16px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 64px;
+}
+.tours-left{
+   flex-grow: 1;
+  flex-shrink:1 ;
+    color: #FF5400;
+    
+}
+.tours{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.tours-right{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.section-3{
+    display: flex;
+    gap:15px;
+    padding-top: 15px;
+    justify-content: space-between;
+
+    
+    
+
+}
+.tours-description{
+    margin-bottom: 10px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    gap: 30px;
+}
+.tours-description-bottom{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    gap: 30px;
+}
+
+.tours-description-list{
+    position: relative;
+    padding-left: 15px;
+}
+.read-more{
+    margin-top: 10px;
+    position: relative;
+    margin-top: px;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--prime-color);
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.choose-destination{
+    justify-content: center;
+}
+
+
+@media screen and (max-width:576px) {
+    body{
+        max-width: 335px;
+    }
+    .section-2{
+        width: 335px;
+    height: 477px;
+    }
+}
+.hidden{
+    display: none;
+}
+.choose-destination{
+    text-align: center;
+}
+.destination{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}  
+/*grid{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column: 1 / 8;
+    ;
+}
+. 
+    display: grid;
+    grid-template-rows: repeat(3, auto); /* Adjust row sizes as needed */
+  
+    grid-template-columns: 0.5fr 0.5fr; /* 1st row: two pictures of 0.5fr each */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+  }
+  
+  /*.picture1 {
+    grid-row: 1 / 2; /* 1st row */
+  }
+  
+  /*.picture2 {
+    grid-row: 1 / 2; /* 1st row */
+  }
+  
+  /*.picture3 {
+    grid-row: 2 / 3; /* 2nd row */
+  }
+  
+  /*.picture4 {
+    grid-row: 2 / 3; /* 2nd row */
+  }
+  
+  /*.picture5 {
+    grid-row: 2 / 3; /* 2nd row */
+  }
+  
+  /*.picture6 {
+    grid-row: 3 / 4; /* 3rd row */
+  }
+  
+  /*.picture7 {
+    grid-row: 3 / 4; /* 3rd row */
+  }
+  .grid {
+    display: grid;
+    grid-template-rows: repeat(3, auto); /* Adjust row sizes as needed */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for the 1st row */
+  
+    gap: 10px; /* Adjust the gap between grid items as needed */
+  }
+  
+  picture {
+    width: 100%; /* Ensure pictures take up the full width of the grid cell */
+  }
+  
+  .picture1,
+  .picture2 {
+    grid-row: 1; /* 1st row */
+  }
+  
+  .picture3,
+  .picture4,
+  .picture5 {
+    grid-row: 2; /* 2nd row */
+  }
+  
+  .picture6,
+  .picture7 {
+    grid-row: 3; /* 3rd row */
+  }
+  .choose{
+    
+    text-align: center;
+  }
+  .choose-description{
+    height: 3.25rem;
+    width: 40.1875rem;
+    margin-left: 16.875rem;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+  .choose-us{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .section7{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    gap: 10px;
+  }
+  .div7l{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+  }
+  .div7r{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+  }
+  .section7 img{
+    padding-top: 1rem ;
+    padding-left: 1rem;
+  }
+  .section8{
+    display: flex;
+    justify-content: center;
+    width: 35rem;
+    flex-shrink: 0;
+    position: ;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  .section8 h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .section8 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    gap: 20px;
+  }

@@ -1,8 +1,9 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
-*{
-    font-size: Mulish;
-}
+ 
+ *{
+  font-family: 'Mulish', sans-serif;
+ }   
+
 :root{
     --prime-color: #FF5400;
     --Dark-02: #424247;
@@ -216,37 +217,35 @@ line-height: normal;
     display: grid;
     grid-template-rows: repeat(3, auto); /* Adjust row sizes as needed */
   
-    grid-template-columns: 0.5fr 0.5fr; /* 1st row: two pictures of 0.5fr each */
-    gap: 10px; /* Adjust the gap between grid items as needed */
-  }
+  
   
   /*.picture1 {
     grid-row: 1 / 2; /* 1st row */
-  }
+  
   
   /*.picture2 {
     grid-row: 1 / 2; /* 1st row */
-  }
+  
   
   /*.picture3 {
     grid-row: 2 / 3; /* 2nd row */
-  }
+  
   
   /*.picture4 {
     grid-row: 2 / 3; /* 2nd row */
-  }
+  
   
   /*.picture5 {
     grid-row: 2 / 3; /* 2nd row */
-  }
+  
   
   /*.picture6 {
     grid-row: 3 / 4; /* 3rd row */
-  }
+  
   
   /*.picture7 {
     grid-row: 3 / 4; /* 3rd row */
-  }
+  
   .grid {
     display: grid;
     grid-template-rows: repeat(3, auto); /* Adjust row sizes as needed */
@@ -324,7 +323,7 @@ line-height: normal;
     justify-content: center;
     width: 35rem;
     flex-shrink: 0;
-    position: ;
+   
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -344,5 +343,9 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
-    gap: 20px;
-  }
+    gap: 20px;}
+    .section8{
+      margin-left: 500px;
+    }
+    
+

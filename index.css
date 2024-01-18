@@ -345,7 +345,23 @@ line-height: normal;
     line-height: 26px; /* 162.5% */
     gap: 20px;}
     .section8{
-      margin-left: 500px;
+     display: flex;
+     justify-content: center;
+    }
+    .sec91{
+      position: relative;
+    }
+    .sec91b{
+      width: 579px;
+  
+      flex-shrink: 0;
+      background-color: #FF5400;
+      margin-right: 30rem;
+    }
+    .sec91ul{
+      display: flex;
+      list-style: none;
+      gap: 2rem;
     }
     
 
